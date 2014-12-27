@@ -3,7 +3,7 @@ Yupik Vertial Center
 
 ### Center vertically almost anything
 
-> Is part of [Yupik collection of modules](../yupik)
+> Is part of [Yupik collection of modules](/laurentperroteau/yupik)
 
 Install using Bower:
 
