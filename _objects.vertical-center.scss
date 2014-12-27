@@ -1,0 +1,37 @@
+
+// ----------------------------------- //
+// ::: Yupik Vertical Center ::: //
+// ----------------------------------- //
+
+
+// Center vertically anything (but doesn't works below IE9)
+// ========================================================
+// @see: http://davidwalsh.name/css-vertical-center
+@mixin vertical-center {
+    position: relative;
+    top: 50%;
+    @include vendor(transform, translateY(-50%) );
+}
+
+
+// Class/placeholder to call vertical-center mixin
+.yupik-vertical-center,
+%yupik-vertical-center {
+    @include vertical-center;
+}
+
+
+// Center vertically some text (use only if one line)
+// ==================================================
+// @param $size => height of container (pass unit if doesn't want px)
+// @use: @include vertical-text-center(15); 
+//       => height: 15px; line-height: 15px;
+@mixin vertical-text-center($size: null) 
+{
+    @if $size {
+        height: testUnit($size); line-height: testUnit($size);
+    }
+    @else {
+        @warn "You need pass a size at vertical-text-center mixin.";
+    }
+}

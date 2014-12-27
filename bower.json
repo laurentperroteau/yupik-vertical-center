@@ -1,0 +1,26 @@
+{
+  "name": "yupik-vertical-center",
+  "version": "0.0.1",
+  "homepage": "https://github.com/laurentperroteau/yupik-vertical-center",
+  "authors": [
+    "laurentperroteau <laurentperroteau@gmail.com>"
+  ],
+  "description": "Center vertically almost anything",
+  "main": "_objects.vertical-center",
+  "keywords": [
+    "grandwazoo",
+    "inuitcss",
+    "oocss",
+    "sass",
+    "scss",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
